@@ -53,10 +53,10 @@ h3 {
 	background-color: #273c75;
 }
 
-#btn {
+.btn {
 	background-color: #273c75;
 	color: #fff;
-	width: 100%;
+	width: 74%;
 	margin-bottom: 20px;
 	border-radius: 10px;
 	border: none;
@@ -66,18 +66,23 @@ h3 {
 	padding: 14px 40px;
 	font-size: 16px;
 	cursor: pointer;
+	display: inline-block;
 }
 
-#btn:focus {
+#add {
+	width: 25%;
+}
+
+.btn:focus {
 	outline: 0;
 }
 
-#btn:hover {
+.btn:hover {
 	opacity: 80%;
 	background-color: #fff;
 	color: #273c75;
 }
 
-#btn:active {
+.btn:active {
 	transform: scale(0.98);
 }
