@@ -33,9 +33,10 @@ h3 {
 	height: 100px;
 	padding: 10px;
 	font-family: inherit;
-	margin: 0 0 20px;
+	margin: 0 0 10px;
 	font-size: 16px;
 	border-radius: 5px;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
 }
 .tag {
 	background-color: #f0932b;
@@ -45,8 +46,38 @@ h3 {
 	margin: 0 5px 10px 0;
 	font-size: 14px;
 	display: inline-block;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
 }
 
 .tag.highlight {
 	background-color: #273c75;
+}
+
+#btn {
+	background-color: #273c75;
+	color: #fff;
+	width: 100%;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	border: none;
+	font-size: inherit;
+	font-weight: 500;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+	padding: 14px 40px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+#btn:focus {
+	outline: 0;
+}
+
+#btn:hover {
+	opacity: 80%;
+	background-color: #fff;
+	color: #273c75;
+}
+
+#btn:active {
+	transform: scale(0.98);
 }
